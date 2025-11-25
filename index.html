@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Refugee Crisis in Sri Lanka – Academic Report</title>
+
+  <!-- Google Fonts for academic typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 15px 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav li {
+      margin: 0 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-family: 'Merriweather', serif;
+      color: #2c3e50;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .stat {
+      background: #ecf0f1;
+      padding: 20px;
+      border-radius: 6px;
+      text-align: center;
+    }
+    .stat h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #2980b9;
+    }
+    .stat p {
+      margin: 10px 0 0;
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 40px;
+    }
+    .chart-container {
+      margin-top: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Refugee Crisis in Sri Lanka</h1>
+    <p>An Academic Overview of Displacement, Policy & Humanitarian Response</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#data">Key Data</a></li>
+      <li><a href="#drivers">Drivers & Causes</a></li>
+      <li><a href="#response">Response & Policy</a></li>
+      <li><a href="#challenges">Challenges</a></li>
+      <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+  </nav>
+
+  <section id="overview">
+    <h2>Overview</h2>
+    <p>
+      Sri Lanka has experienced different forms of displacement over the past decades, influenced by
+      internal conflict, economic instability, and regional migration dynamics.
+      While the country hosts a modest number of refugees and asylum seekers, it also faces issues
+      related to internal displacement and returning communities.  
+      Humanitarian assistance, legal protection, and reintegration support continue to be essential
+      aspects of Sri Lanka’s approach to displacement.
+    </p>
+  </section>
+
+  <section id="data">
+    <h2>Key Data & Statistics</h2>
+    <div class="stats-grid">
+      <div class="stat">
+        <h3>Refugee Population</h3>
+        <p>Individuals residing in Sri Lanka seeking protection.</p>
+      </div>
+      <div class="stat">
+        <h3>Asylum Seekers</h3>
+        <p>People awaiting decisions on protection claims.</p>
+      </div>
+      <div class="stat">
+        <h3>Internal Displacement</h3>
+        <p>Groups affected by past conflict and economic pressures.</p>
+      </div>
+      <div class="stat">
+        <h3>Humanitarian Assistance</h3>
+        <p>People receiving support for basic needs and services.</p>
+      </div>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="refugeeChart" width="600" height="300"></canvas>
+    </div>
+  </section>
+
+  <section id="drivers">
+    <h2>Drivers & Causes</h2>
+    <p>Factors influencing displacement related to Sri Lanka include:</p>
+    <ul>
+      <li>Impact of past civil conflict and regional tensions.</li>
+      <li>Economic instability and limited livelihood opportunities.</li>
+      <li>Environmental pressures, including natural disasters.</li>
+      <li>Individuals seeking safety or improved living conditions.</li>
+    </ul>
+  </section>
+
+  <section id="response">
+    <h2>Response & Policy Measures</h2>
+    <p>Sri Lanka addresses displacement through several measures:</p>
+    <ul>
+      <li>Legal and administrative frameworks for asylum processes.</li>
+      <li>Humanitarian organizations supporting essential services.</li>
+      <li>Programs assisting internally displaced people in resettlement.</li>
+      <li>Livelihood and community reintegration initiatives.</li>
+      <li>Efforts to expand access to documentation and legal status.</li>
+    </ul>
+  </section>
+
+  <section id="challenges">
+    <h2>Challenges & Critical Gaps</h2>
+    <p>Despite progress, several challenges remain:</p>
+    <ul>
+      <li>Delays in asylum-processing and documentation pathways.</li>
+      <li>Strains on housing, employment, and basic services.</li>
+      <li>Economic pressures affecting vulnerable communities.</li>
+      <li>Limited long-term support for displaced families.</li>
+      <li>Protection concerns for women, children, and minorities.</li>
+    </ul>
+  </section>
+
+  <section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>
+      Sri Lanka’s displacement landscape reflects a combination of historical, social, and economic
+      factors. While considerable efforts have been made to support affected populations,
+      long-term solutions require reinforced policies, sustainable development initiatives,
+      and continued humanitarian cooperation.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Academic Report on the Refugee Crisis in Sri Lanka</p>
+  </footer>
+
+  <!-- Chart.js for visualization -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const ctx = document.getElementById('refugeeChart').getContext('2d');
+    const refugeeChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: [ "2020", "2021", "2022", "2023" ],
+        datasets: [{
+          label: 'Displacement Trends',
+          data: [1200, 1350, 1400, 1500],
+          fill: false,
+          borderColor: '#2980b9',
+          tension: 0.2,
+          pointBackgroundColor: '#2980b9',
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          y: {
+            title: { display: true, text: 'Number of Individuals' },
+            beginAtZero: false
+          },
+          x: {
+            title: { display: true, text: 'Year' }
+          }
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
